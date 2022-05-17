@@ -899,3 +899,192 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.17-15.02.33:248][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2022.05.17-15.02.33:249][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.05.17-15.02.33:896][  2]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.17-15.06.04:355][674]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.17-15.06.04:361][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.17-15.06.04:481][674]PIE: New page: Sessão de PIE : ThirdPersonExampleMap (17 de mai de 2022 09:06:04)
+[2022.05.17-15.06.04:482][674]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.05.17-15.06.04:483][674]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.17-15.06.04:483][674]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.17-15.06.04:498][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015087s)
+[2022.05.17-15.06.04:637][674]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.05.17-15.06.04:638][674]LogPlayLevel: PIE: World Init took: (0.139251s)
+[2022.05.17-15.06.04:638][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.154529s)
+[2022.05.17-15.06.04:648][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.05.17-15.06.04:648][674]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.17-15.06.04:648][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.17-15.06.04:648][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.17-15.06.04:649][674]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.17-15.06.04:649][674]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.17-15.06.04:649][674]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.17-15.06.04:649][674]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.17-15.06.04:651][674]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.17-15.06.04:651][674]LogAudioMixer: Display: 1: FrontRight
+[2022.05.17-15.06.04:687][674]LogAudioMixer: Display: Using Audio Device Fones de ouvido (A6S Stereo)
+[2022.05.17-15.06.04:687][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.17-15.06.04:687][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.17-15.06.04:687][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.17-15.06.04:688][674]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.17-15.06.04:688][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.17-15.06.04:688][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.17-15.06.04:689][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.17-15.06.04:689][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.17-15.06.04:689][674]LogInit: FAudioDevice initialized.
+[2022.05.17-15.06.04:689][674]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2022.05.17-15.06.04:696][674]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.17-15.06.04:698][674]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.05.17-12.06.04
+[2022.05.17-15.06.04:699][674]LogWorld: Bringing up level for play took: 0.001617
+[2022.05.17-15.06.04:699][674]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.05.17-15.06.04:749][674]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.05.17-15.06.04:750][674]PIE: Servidor conectado
+[2022.05.17-15.06.04:752][674]PIE: Play in editor total start time 0,393 seconds.
+[2022.05.17-15.06.07:014][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-15.06.07:014][771]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.17-15.06.07:014][771]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.17-15.06.07:014][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-15.06.07:033][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.17-15.06.07:035][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-15.06.07:040][771]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.17-15.06.07:040][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.17-15.06.07:041][771]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.17-15.06.07:044][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-15.06.07:045][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.05.17-15.06.07:122][773]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.17-15.06.08:061][811]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.17-15.06.08:090][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.05.17-15.06.08:105][811]LogSavePackage: Moving '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Saved/ThirdPersonExampleMapEA2BAF5C47A793AA93D87485AD5BC507.tmp' to '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.05.17-15.06.08:133][811]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2022.05.17-15.06.08:133][811]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.05.17-15.06.18:991][238]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.05.17-15.06.19:702][238]LogBlueprintEditor: Perf: 0.4 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2022.05.17-15.06.19:702][238]LogBlueprintEditor: Perf: 0.3 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2022.05.17-15.06.20:291][238]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.05.17-15.06.21:652][238]LogSlate: Took 0.016634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.17-15.06.22:097][239]LogSlate: Took 0.019627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.17-15.06.24:665][321]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2022.05.17-15.06.34:574][892]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.17-15.06.34:580][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.05.17-15.06.34:582][892]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2022.05.17-15.06.34:754][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.05.17-15.06.34:755][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2022.05.17-15.06.34:756][892]PIE: New page: Sessão de PIE : ThirdPersonExampleMap (17 de mai de 2022 09:06:34)
+[2022.05.17-15.06.34:756][892]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.17-15.06.34:767][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010981s)
+[2022.05.17-15.06.34:769][892]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.05.17-15.06.34:769][892]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2022.05.17-15.06.34:769][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012354s)
+[2022.05.17-15.06.34:789][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.05.17-15.06.34:790][892]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.17-15.06.34:790][892]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.17-15.06.34:790][892]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.17-15.06.34:790][892]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.17-15.06.34:790][892]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.17-15.06.34:790][892]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.17-15.06.34:792][892]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.17-15.06.34:792][892]LogAudioMixer: Display: 1: FrontRight
+[2022.05.17-15.06.34:838][892]LogAudioMixer: Display: Using Audio Device Fones de ouvido (A6S Stereo)
+[2022.05.17-15.06.34:838][892]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.17-15.06.34:838][892]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.17-15.06.34:838][892]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.17-15.06.34:839][892]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.17-15.06.34:839][892]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.17-15.06.34:839][892]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.17-15.06.34:840][892]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.17-15.06.34:840][892]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.17-15.06.34:840][892]LogInit: FAudioDevice initialized.
+[2022.05.17-15.06.34:840][892]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2022.05.17-15.06.34:887][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-15.06.34:888][892]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.17-15.06.34:890][892]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.05.17-12.06.34
+[2022.05.17-15.06.34:891][892]LogWorld: Bringing up level for play took: 0.002273
+[2022.05.17-15.06.34:891][892]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.05.17-15.06.34:895][892]PIE: Servidor conectado
+[2022.05.17-15.06.34:895][892]PIE: Play in editor total start time 0,316 seconds.
+[2022.05.17-15.06.35:040][893]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2022.05.17-15.06.40:774][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-15.06.40:775][ 41]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.17-15.06.40:776][ 41]LogSlate: Window 'CombatProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.17-15.06.40:839][ 41]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.17-15.06.40:839][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-15.06.40:861][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.17-15.06.40:865][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-15.06.40:886][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.17-15.06.40:887][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.17-15.06.40:893][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.05.17-15.06.41:022][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.05.17-15.07.01:427][734]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.17-15.07.01:434][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.17-15.07.01:434][734]PIE: New page: Sessão de PIE : ThirdPersonExampleMap (17 de mai de 2022 09:07:01)
+[2022.05.17-15.07.01:434][734]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.17-15.07.01:446][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011939s)
+[2022.05.17-15.07.01:447][734]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.05.17-15.07.01:447][734]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2022.05.17-15.07.01:447][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013071s)
+[2022.05.17-15.07.01:474][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.05.17-15.07.01:477][734]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.17-15.07.01:477][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.17-15.07.01:477][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.17-15.07.01:478][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.17-15.07.01:478][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.17-15.07.01:478][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.17-15.07.01:478][734]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.17-15.07.01:480][734]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.17-15.07.01:480][734]LogAudioMixer: Display: 1: FrontRight
+[2022.05.17-15.07.01:516][734]LogAudioMixer: Display: Using Audio Device Fones de ouvido (A6S Stereo)
+[2022.05.17-15.07.01:516][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.17-15.07.01:516][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.17-15.07.01:516][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.17-15.07.01:517][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.17-15.07.01:517][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.17-15.07.01:517][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.17-15.07.01:518][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.17-15.07.01:518][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.17-15.07.01:518][734]LogInit: FAudioDevice initialized.
+[2022.05.17-15.07.01:518][734]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonExampleMap'.
+[2022.05.17-15.07.01:565][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-15.07.01:566][734]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.17-15.07.01:569][734]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.05.17-12.07.01
+[2022.05.17-15.07.01:569][734]LogWorld: Bringing up level for play took: 0.002927
+[2022.05.17-15.07.01:569][734]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.05.17-15.07.01:573][734]PIE: Servidor conectado
+[2022.05.17-15.07.01:574][734]PIE: Play in editor total start time 0,141 seconds.
+[2022.05.17-15.07.06:574][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-15.07.06:574][861]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.05.17-15.07.06:574][861]LogSlate: Window 'CombatProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.17-15.07.06:644][861]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.17-15.07.06:645][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-15.07.06:668][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.17-15.07.06:672][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-15.07.06:692][861]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.17-15.07.06:692][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.17-15.07.06:693][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.17-15.07.06:699][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.05.17-15.07.06:746][862]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.05.17-15.07.07:686][887]LogSavePackage: Moving '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Saved/ThirdPersonCharacter13C5A0A94298BA9F3684008E97B4CE9E.tmp' to '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.05.17-15.07.07:706][887]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2022.05.17-15.07.07:706][887]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.05.17-15.10.19:960][973]LogSavePackage: Moving '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Saved/ThirdPersonCharacter0E5BC9964DEC1AB69AA43C82846C5B6F.tmp' to '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.05.17-15.10.19:976][973]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2022.05.17-15.10.19:976][973]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.05.17-15.10.24:453][242]LogEditorTransaction: Undo Mover Nó
+[2022.05.17-15.10.35:582][881]LogSavePackage: Moving '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Saved/ThirdPersonCharacter8E5EC9F04F2BF9A3C1B008B33A09FEDE.tmp' to '../../../../../Repository/Unreal/GameEngine-N2/CombatProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.05.17-15.10.35:595][881]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2022.05.17-15.10.35:595][881]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
