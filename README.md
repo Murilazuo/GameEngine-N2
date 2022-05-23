@@ -11,7 +11,7 @@ Evento responsável por aumentar a vida do player, possui uma variável de entra
 ### Healing(press)
 Chama o evento healing apenas uma vez quando a tecla(J) é precionada.
 
-![image]([https://user-images.githubusercontent.com/78811958/168909075-34db758d-af37-4653-8784-ad23b0f4ef95.png]
+![image][https://user-images.githubusercontent.com/78811958/168909075-34db758d-af37-4653-8784-ad23b0f4ef95.png]
 
 ![image](https://im3.ezgif.com/tmp/ezgif-3-b5af3ac389.gif)
 
@@ -24,6 +24,7 @@ Comportamento responável por recuerar o valor de vida do player em decorrencia 
 ## Actions
 
 ### Jump
+
 ![image](https://im3.ezgif.com/tmp/ezgif-3-1a873302a4.gif)
 
 Comportamento de pulo. Com o InputAction Jump, se o player está no chão e energia for maior que 0.25f e não estiver atacando, é chamado a função do componente Movimento do Personagem e a energia é decrementada em 0.25f.
