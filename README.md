@@ -11,7 +11,7 @@ Evento responsável por aumentar a vida do player, possui uma variável de entra
 ### Healing(press)
 Chama o evento healing apenas uma vez quando a tecla(J) é precionada.
 
-![image][https://user-images.githubusercontent.com/78811958/168909075-34db758d-af37-4653-8784-ad23b0f4ef95.png]
+![image](https://user-images.githubusercontent.com/78811958/168909075-34db758d-af37-4653-8784-ad23b0f4ef95.png)
 
 ![image](https://im3.ezgif.com/tmp/ezgif-3-b5af3ac389.gif)
 
@@ -32,7 +32,9 @@ Comportamento de pulo. Com o InputAction Jump, se o player está no chão e ener
 ![image](https://user-images.githubusercontent.com/78811958/168912229-fd700c47-4885-428c-81d6-9fdebbb83190.png)
 
 ### Attack
-![image](ttps://im3.ezgif.com/tmp/ezgif-3-ca796c81a5.gif)
+
+![image](https://im3.ezgif.com/tmp/ezgif-3-ca796c81a5.gif)
+
 Comportamento de ataque. Com o InputAction Atack sse a enregia for maior que 0.25f e não estiver atacando, ocorre uma sequencia de 0 a 1. A 0 seria o começo do ataque, is_atacking é definifa como true, a energia é decrementada em 0.25f e a velocidade máxima do jogador é definida para 0. O 1 seria a duração e o fim do pulo, é chamado um atraso de 1.2 segundos, com o fim desse atraso, is_atacking é definida como false e a velocidade máxima do jogador retorna ao normal, para 600.0f.
 
 ![image](https://user-images.githubusercontent.com/78811958/168913119-82049a3b-4766-4b79-abc2-f224505c6f34.png)
