@@ -13,8 +13,6 @@ Chama o evento healing apenas uma vez quando a tecla(J) é precionada.
 
 ![image](https://user-images.githubusercontent.com/78811958/168909075-34db758d-af37-4653-8784-ad23b0f4ef95.png)
 
-![image](https://im3.ezgif.com/tmp/ezgif-3-b5af3ac389.gif)
-
 
 ### Healing(hold)
 Comportamento responável por recuerar o valor de vida do player em decorrencia do tempo, enquanto um tecla(H) está precionada. Com o input da tecla, a variável (bool)is_h_hold é definida como true, e é chamado o custom event H_pressed. No H_pressed é chamado o evento **Healing**, em seguida acontece um atraso de 0,1 segundos, se is_h_press for verdadeiro e vida for menor que a vida máxima, é chamado o custom event H_Pressed e o loop é repetido, se não o loop é quebrado. Quando a tecla é solta, is_h_pressed é definida como falsa.
@@ -25,7 +23,6 @@ Comportamento responável por recuerar o valor de vida do player em decorrencia 
 
 ### Jump
 
-![image](https://im3.ezgif.com/tmp/ezgif-3-1a873302a4.gif)
 
 Comportamento de pulo. Com o InputAction Jump, se o player está no chão e energia for maior que 0.25f e não estiver atacando, é chamado a função do componente Movimento do Personagem e a energia é decrementada em 0.25f.
 
@@ -33,7 +30,6 @@ Comportamento de pulo. Com o InputAction Jump, se o player está no chão e ener
 
 ### Attack
 
-![image](https://im3.ezgif.com/tmp/ezgif-3-ca796c81a5.gif)
 
 Comportamento de ataque. Com o InputAction Atack sse a enregia for maior que 0.25f e não estiver atacando, ocorre uma sequencia de 0 a 1. A 0 seria o começo do ataque, is_atacking é definifa como true, a energia é decrementada em 0.25f e a velocidade máxima do jogador é definida para 0. O 1 seria a duração e o fim do pulo, é chamado um atraso de 1.2 segundos, com o fim desse atraso, is_atacking é definida como false e a velocidade máxima do jogador retorna ao normal, para 600.0f.
 
@@ -41,8 +37,6 @@ Comportamento de ataque. Com o InputAction Atack sse a enregia for maior que 0.2
 
 # Take Damage
 Controle de dano recebido e morte.
-
-![image](https://im3.ezgif.com/tmp/ezgif-3-d1c888deb9.gif)
 
 ## custom event Take Damage
 Recebe como entrada uma variável float damageToTake, se is_dead for falso, a vida é decrementada no valor de damageToTake, se a vida for menor que ou iguak a 0, é chamado o evento Death e isDead é igual a true.
